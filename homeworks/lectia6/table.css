@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;   
+}
+
+#main{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#main h3{
+    color:     #879fb7;
+    ;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.table{
+    width: 100%;
+}
+
+.table th{
+    background-color: #879fb7;
+    color: #29292b;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+table td{
+    text-align: center;
+    border-bottom: 1px dashed #ccc;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.table a{
+    text-align: center;
+    color: #879fb7;
+    padding: 8px;
+    border: 1px solid #879fb7;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.table a:hover{
+    border: 1px solid #bce2f1;
+    color: #bce2f1
+    
+}
+
+.table img{
+    max-width: 120px;
+    text-align: center;
+}
+
+.actor{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+.film{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
