@@ -1,0 +1,109 @@
+/* General body settings like font and background color of the page */
+body {
+    background-color: #f3eddc;
+    font-family: "Arial", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Styling the main heading */
+h1 {
+    text-align: center;
+}
+
+/* Styling the main container */
+.container {
+    border-radius: 5px;
+    background-color: #d0b38d;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+/* Styling the labels' text color */
+label {
+    color: #2b2b21;
+}
+
+/* Styling the form inputs, first targetting the class ones to give all elements the same width and margins (to be centered) */
+.inputInfo {
+    width: 85%;
+    margin: auto;
+}
+
+/* When typing in an input field, make that field prominent coloring its borders */
+input:focus-visible {
+    color:  #9e8667;
+    0;
+}
+
+/* Styling some text elements so they aren't lost on the page */
+input::placeholder,
+textarea::placeholder,
+h1 {
+    color: #231710;
+}
+
+/* Styling inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+/* Style inputs with type="submit", usual and on hover */
+input[type=submit] {
+    background-color: #231710;
+    color: #fffdfc;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #ffffff;
+    color: #f6f6f5;
+    border: 1px solid;     
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Styling specific elements, targetting them by their unique IDs */
+#fname,
+#lname {
+    background-color: #dfd6cb;
+    color: #dfd6cb;
+
+}
+
+#email,
+#phnumb {
+    background-color: #dfd6cb;
+    color: #dfd6cb;
+}
+
+#country,
+#address {
+
+    background-color:  #dfd6cb;
+}
+
+#country {
+    cursor: pointer;
+}
+
+#subject {
+    background-color: #dfd6cb;
+    color: #000000;
+}
