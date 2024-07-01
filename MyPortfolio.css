@@ -1,0 +1,10 @@
+form button::before{
+    content: "->";
+   color: aqua;
+}
+nav a::after{
+    content: ""
+}
+#project li::marker {
+    content: url(placinta.jpg);
+}

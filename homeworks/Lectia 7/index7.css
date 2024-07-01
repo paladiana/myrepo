@@ -14,7 +14,7 @@ h1 {
 
 /* Styling the main container */
 .container {
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #d0b38d;
     padding: 20px;
     width: 50%;
@@ -28,7 +28,7 @@ label {
 
 /* Styling the form inputs, first targetting the class ones to give all elements the same width and margins (to be centered) */
 .inputInfo {
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 
