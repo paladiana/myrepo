@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+div {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+#box1 {
+    width: 150px;
+    background-color: aqua;
+    color: brown;
+    border: 10px solid #6ec72f;
+    padding: 15px 20px 25px 30px;
+}
+#box2 {
+    width: 70px;
+    height: 70px;
+    background-color: blueviolet;
+    color:white;
+    border: 10px solid #131111;
+    padding: 10px 25px;
+}
